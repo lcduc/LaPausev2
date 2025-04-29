@@ -109,3 +109,12 @@ export default function RoomDetailPage() {
     </div>
   );
 }
+
+export async function generateStaticParams() {
+  // Placeholder: statically generate pages for id '1', '2', and '3'
+  return [
+    { id: '1' },
+    { id: '2' },
+    { id: '3' },
+  ];
+}
